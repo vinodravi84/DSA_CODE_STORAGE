@@ -98,32 +98,33 @@
   
   /* Responsive Styling */
   @media screen and (max-width: 768px) {
-   .code-wrapper {
-    width: 100vw;              /* ✅ Full viewport width */
-    margin-left: -1rem;        /* ✅ Cancel out container padding */
-    margin-right: -1rem;
+    .container {
+    padding: 0;
+    margin: 0;
+  }
+
+  .code-wrapper {
+    width: 100vw;              /* Full screen width */
+    margin: 0 !important;      /* Remove all margins */
+    padding: 0.75rem 0.5rem;   /* Minimal padding inside */
     border-radius: 0;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    border-left: none;
+    border-right: none;
     box-sizing: border-box;
-    overflow-x: auto;
   }
 
   pre {
     font-size: 0.85rem;
     line-height: 1.6;
-    white-space: pre;          /* ✅ Prevent line wrap */
-    overflow-x: auto;          /* ✅ Scroll inside code only */
-    display: block;
-    min-width: 100%;           /* ✅ Stretch the content */
-  }
-
-  .container {
-    padding: 0.5rem;
+    white-space: pre;
+    overflow-x: auto;
+    min-width: 100%;
   }
 
   html, body {
-    overflow-x: hidden;        /* ✅ Prevent unwanted page scroll */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
   }
 
   body {
