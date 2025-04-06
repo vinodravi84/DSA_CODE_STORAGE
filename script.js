@@ -1,10 +1,10 @@
 const topics = {
-    "Array": ["reverse_array.cpp", "kadane.cpp"],
-    "Stack": ["next_greater_element.cpp"],
-    "Linked List": ["merge_sorted_lists.cpp"],
-    "Queue": [],
+    "Array": ["reverse_array.cpp"],
+    "Stack": ["Stack_Implementation.cpp"],
+    "Linked List": ["Middle_of_Linked_List.cpp"],
+    "Queue": ["Queue_Implementation.cpp"],
     "Binary Tree": ["Build_Tree.cpp","Inorder.cpp","Preorder.cpp","Postorder.cpp","BFS_with_nullptr.cpp","BFS_without_nullptr.cpp","LeftView.cpp","RightView.cpp"],
-    "Graph": [],
+    "Graph": ["Graph_Implementation.cpp","BFS.cpp"],
     "Searching": ["Binary_Search_Iterative.cpp","Binary_Search_Recursive.cpp"],
     "Sorting": ["Quick_Sort.cpp"]
   };
