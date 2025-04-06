@@ -98,35 +98,17 @@
   
   /* Responsive Styling */
   @media screen and (max-width: 768px) {
-  .code-wrapper {
-    width: 100vw;
-    margin-left: -1.2rem;   /* ✅ Shift to left */
-    margin-right: -0.5rem;  /* ✅ Less space on right */
-    border-radius: 0;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
-  pre {
-    font-size: 0.85rem;
-    line-height: 1.6;
-    min-width: max-content;
-  }
-
-  .container {
-    padding: 1rem;
-  }
-
-  body {
-    transform: scale(0.95);
-    transform-origin: top center;
-  }
-
-  html, body {
-    overflow-x: hidden; /* ✅ Prevent horizontal scroll */
-  }
-}
-
+    h1, h2 {
+      font-size: 1.5rem;
+    }
+  
+    .container {
+      padding: 1rem;
+    }
+  
+    pre {
+      font-size: 0.85rem;
+    }
   
     button {
       width: 100%;
