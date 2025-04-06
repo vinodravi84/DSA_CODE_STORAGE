@@ -1,5 +1,5 @@
 const topics = {
-    "Array": ["reverse_array.cpp"],
+    "Array": ["reverse_array.cpp","Sorting.cpp"],
     "Stack": ["Stack_Implementation.cpp"],
     "Linked List": ["Middle_Of_Linked_List.cpp"],
     "Queue": ["Queue_Implementation.cpp"],
