@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Code Viewer</title>
+  <!-- Highlight.js CSS Theme (choose one) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+
+<!-- Highlight.js Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <a href="index.html" class="back-btn">← Back to Home</a>
+
+    <h2 id="file-title">Loading...</h2>
+
+    <div class="code-wrapper">
+      <button class="copy-btn" onclick="copyCode()">📋 Copy</button>
+      <pre><code id="code-block" class="language-cpp">Loading code...</code></pre>
+
+    </div>
+  </div>
+  <script src="viewer.js"></script>
+</body>
+</html>
