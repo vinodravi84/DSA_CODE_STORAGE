@@ -98,17 +98,21 @@
   
   /* Responsive Styling */
   @media screen and (max-width: 768px) {
-  .container {
-    padding: 1rem 0.5rem;
-  }
-
   .code-wrapper {
-    padding: 1rem 0.5rem;
+    width: 100vw;           /* ✅ Full screen width */
+    margin-left: -1rem;     /* ✅ Cancel out container padding */
+    margin-right: -1rem;
+    border-radius: 0;       /* Optional: make it flat edge to edge */
   }
 
   pre {
     font-size: 0.85rem;
     line-height: 1.6;
+    min-width: max-content;
+  }
+
+  .container {
+    padding: 1rem;
   }
 
   .copy-btn {
@@ -118,17 +122,20 @@
 }
 
 
+
 .code-wrapper {
   position: relative;
   background: #161b22;
   border-radius: 10px;
-  overflow-x: auto; /* ✅ Allow scroll inside */
+  overflow-x: auto;
   padding: 1rem;
   margin-bottom: 2rem;
   border: 1px solid #30363d;
-  max-width: 100vw; /* ✅ Full width of the screen */
   box-sizing: border-box;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
+
   
   .copy-btn {
     position: absolute;
