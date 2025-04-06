@@ -131,6 +131,11 @@
     width: 100vw;
     overflow-x: hidden;
   }
+
+ body {
+      transform: scale(0.85);
+      transform-origin: top center;
+    }
 }
 
   .code-wrapper {
