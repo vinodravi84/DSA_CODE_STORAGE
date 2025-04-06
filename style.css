@@ -100,7 +100,7 @@
   @media screen and (max-width: 768px) {
 
   body {
-    transform: scale(0.95);       /* ✅ Slight zoom-out effect */
+    transform: scale(0.75);       /* ✅ Slight zoom-out effect */
     transform-origin: top center; /* ✅ Keeps it aligned from top */
   }
   .code-wrapper {
