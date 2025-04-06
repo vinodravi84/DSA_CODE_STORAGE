@@ -99,15 +99,13 @@
   /* Responsive Styling */
   @media screen and (max-width: 768px) {
 
-  body {
-    transform: scale(0.75);       /* ✅ Slight zoom-out effect */
-    transform-origin: top center; /* ✅ Keeps it aligned from top */
-  }
   .code-wrapper {
-    width: 100vw;           /* ✅ Full screen width */
-    margin-left: -1rem;     /* ✅ Cancel out container padding */
-    margin-right: -1rem;
-    border-radius: 0;       /* Optional: make it flat edge to edge */
+    width: 100vw;
+    margin-left: -1.2rem;   /* ✅ Shift to left */
+    margin-right: -0.5rem;  /* ✅ Less space on right */
+    border-radius: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   pre {
@@ -115,6 +113,17 @@
     line-height: 1.6;
     min-width: max-content;
   }
+
+  body {
+    transform: scale(0.65);
+    transform-origin: top center;
+  }
+
+  html, body {
+    overflow-x: hidden; /* ✅ Prevent horizontal scroll */
+  }
+}
+
 
   .container {
     padding: 1rem;
