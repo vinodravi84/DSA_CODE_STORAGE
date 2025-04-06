@@ -98,6 +98,11 @@
   
   /* Responsive Styling */
   @media screen and (max-width: 768px) {
+
+  body {
+    transform: scale(0.95);       /* ✅ Slight zoom-out effect */
+    transform-origin: top center; /* ✅ Keeps it aligned from top */
+  }
   .code-wrapper {
     width: 100vw;           /* ✅ Full screen width */
     margin-left: -1rem;     /* ✅ Cancel out container padding */
