@@ -98,7 +98,6 @@
   
   /* Responsive Styling */
   @media screen and (max-width: 768px) {
-
   .code-wrapper {
     width: 100vw;
     margin-left: -1.2rem;   /* ✅ Shift to left */
@@ -114,8 +113,12 @@
     min-width: max-content;
   }
 
+  .container {
+    padding: 1rem;
+  }
+
   body {
-    transform: scale(0.65);
+    transform: scale(0.95);
     transform-origin: top center;
   }
 
@@ -124,32 +127,20 @@
   }
 }
 
-
-  .container {
+  
+    button {
+      width: 100%;
+    }
+  }
+  .code-wrapper {
+    position: relative;
+    background: #161b22;
+    border-radius: 10px;
+    overflow: auto;
     padding: 1rem;
+    margin-bottom: 2rem;
+    border: 1px solid #30363d;
   }
-
-  .copy-btn {
-    font-size: 0.8rem;
-    padding: 4px 8px;
-  }
-}
-
-
-
-.code-wrapper {
-  position: relative;
-  background: #161b22;
-  border-radius: 10px;
-  overflow-x: auto;
-  padding: 1rem;
-  margin-bottom: 2rem;
-  border: 1px solid #30363d;
-  box-sizing: border-box;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
   
   .copy-btn {
     position: absolute;
@@ -170,15 +161,13 @@
   }
   
   pre {
-  font-family: 'Fira Code', 'Courier New', Courier, monospace;
-  font-size: 0.95rem;
-  line-height: 1.8;
-  color: #c9d1d9;
-  white-space: pre;       /* ✅ Keeps formatting */
-  overflow-x: auto;       /* ✅ Scrolls smoothly */
-  min-width: max-content; /* ✅ Prevents code from squishing */
-  display: block;
-}
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    white-space: pre;
+    word-wrap: normal;
+    line-height: 1.5; /* ✅ Increased line spacing */
+
+  }
   
   .back-btn {
     display: inline-block;
