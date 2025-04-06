@@ -98,42 +98,41 @@
   
   /* Responsive Styling */
   @media screen and (max-width: 768px) {
-    .container {
-    padding: 0;
+  /* Remove container restrictions */
+  .container {
+    width: 100vw;
     margin: 0;
+    padding: 0;
   }
 
+  /* Force the code wrapper to occupy the full viewport width */
   .code-wrapper {
-    width: 100vw;              /* Full screen width */
-    margin: 0 !important;      /* Remove all margins */
-    padding: 0.75rem 0.5rem;   /* Minimal padding inside */
+    width: 100vw;
+    margin: 0 !important;
+    padding: 0.5rem; /* Minimal padding so code doesn't touch the very edge */
     border-radius: 0;
-    border-left: none;
-    border-right: none;
     box-sizing: border-box;
   }
 
+  /* Ensure the pre block uses full width without compressing text */
   pre {
-    font-size: 0.85rem;
-    line-height: 1.6;
+    width: 100%;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
     white-space: pre;
     overflow-x: auto;
-    min-width: 100%;
   }
 
+  /* Ensure HTML and body have no extra margins or paddings */
   html, body {
     margin: 0;
     padding: 0;
+    width: 100vw;
     overflow-x: hidden;
   }
+}
 
-  body {
-    transform: scale(0.65);
-    transform-origin: top center;
-  }
-
-  
-  }
   .code-wrapper {
     position: relative;
     background: #161b22;
