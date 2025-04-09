@@ -1,7 +1,7 @@
 const topics = {
     "Array": ["reverse_array.cpp","Sorting.cpp"],
     "Stack": ["Stack_Implementation.cpp"],
-    "Linked List": ["Middle_Of_Linked_List.cpp"],
+    "Linked List": ["Middle_Of_Linked_List.cpp","Detect_Cycle.cpp"],
     "Queue": ["Queue_Implementation.cpp"],
     "Binary Tree": ["Build_Tree.cpp","Inorder.cpp","Preorder.cpp","Postorder.cpp","BFS_with_nullptr.cpp","BFS_without_nullptr.cpp","LeftView.cpp","RightView.cpp","Maximum_Depth.cpp"],
     "Graph": ["Graph_Implementation.cpp","BFS.cpp","DFS.cpp"],
